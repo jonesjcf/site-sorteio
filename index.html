@@ -20,8 +20,12 @@
 
         <label>
             Coverter <b>de</b>
-            <select>
-                <option>R$ Real Brasileiro</option>
+            <select class="currency-select-one">
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">€ Bitcoin</option>
             </select>
         </label>
 
@@ -32,6 +36,7 @@
                 <option value="euro">€ Euro</option>
                 <option value="libra">£ Libra</option>
                 <option value="bitcoin">€ Bitcoin</option>
+                <option value="real">R$ Real Brasileiro</option>
             </select>
         </label>
 
@@ -45,7 +50,7 @@
         <section>
             <div class="currency-box">
                 <img class="currency-img-real" src="./assets/real.png" alt="Moeda-a-converter">
-                <p class="currency" >Real</p>
+                <p class="currency" id="currency-name-one">Real</p>
                 <p class="currency-value-to-convert" >R$ 0,00</p>
             </div>
 
