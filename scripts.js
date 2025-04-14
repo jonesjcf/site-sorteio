@@ -11,7 +11,7 @@ function generateNumber() {
         alert(result)
 
     } else {
-        alert("O valor mínimo deve ser menor que o valor máximo!");
+        alert("O valor MÍNIMO deve ser menor que o valor MÁXIMO!");
     }
 
 
